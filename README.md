@@ -1,2 +1,2 @@
-# audio-recorder
-A vanilla JavaScript audio recorder.
+# audio-player
+A vanilla JavaScript audio player.

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+    color: #1A1A1D;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 5em;
+}
+body {
+    background-color: #4E4E50;
+}
+
+.center {
+    background-color: #C3073F;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 8px solid #6F2232;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.music-icons{
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.footer{
+    text-align: center;
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+  }

@@ -23,6 +23,7 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 18px;
     border: 8px solid #6F2232;
     padding: 20px;
     max-width: 600px;
@@ -47,5 +48,8 @@ body {
 @media only screen and (max-width: 600px) {
     h1 {
         font-size: 2em;
+    }
+    .music-icons{
+        max-width: 400px;
     }
   }

@@ -21,10 +21,6 @@ for (let i in tracksArray){
   tracks.push(`<audio id="music"><source src="music/${tracksArray[i]["song-title"]}.mp3" type="audio/mpeg"></audio>`,);
 }
 
-// let tracks = [
-//   `<audio id="music"><source src="The Weeknd - In Your Eyes.mp3" type="audio/mpeg"></audio>`,
-//   `<audio id="music"><source src="The Weeknd - Next.mp3" type="audio/mpeg"></audio>`
-// ];
 let audio = document.getElementById("music-container");
 audio.innerHTML=tracks[0];
 let currentTrack = document.getElementById("music");
